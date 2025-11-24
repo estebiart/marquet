@@ -1,0 +1,451 @@
+/* @import '@fontsource/oswald';
+@import '@fontsource/lato'; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.responsive iframe{
+  max-height: 400px !important;
+}
+.defer-visibility {
+  content-visibility: auto;
+  contain-intrinsic-size: 600px;
+}
+
+@media (max-width: 768px) {
+  .defer-visibility {
+    content-visibility: visible;
+    contain-intrinsic-size: auto;
+  }
+}
+.pie{
+  color: #666; 
+  font-size: 14px !important;
+  margin-top: -10px !important;
+
+}
+blockquote{
+    font-size: 16px;
+    background-color: hsla(0, 0%, 92.9%, .64);
+    padding: 0 20px 0px 20px;
+    margin: 35px 0 35px 15px;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    border-left: 8px solid #ef0c52;
+}
+blockquote:before {
+    color: #000;
+    content: open-quote;
+    font-size: 50px;
+    margin-left: -.4rem;
+    position: relative;
+    top: 12px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+blockquote:after {
+    color: #000;
+    content: close-quote;
+    font-size: 50px;
+    position: relative;
+    top: auto;
+    float: right;
+    padding-right: 20px;
+    font-weight: 600;
+}
+.tiptap th p{
+  font-weight: 900 !important;
+}
+.tiptap {
+  min-height: 450px;
+}
+
+*
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+body,
+* {
+  font-family: 'Roboto', sans-serif !important;
+  list-style: auto !important;
+}
+
+ol li {
+  list-style: decimal !important;
+}
+
+ul li {
+  list-style: disc !important;
+}
+
+.bigcard img {
+  height: 100%;
+}
+
+.tiptap img {
+  width: 100%;
+}
+
+.tiptap iframe {
+  width: 100%;
+}
+
+.swiper {
+  margin: 0 30px !important;
+}
+
+#internacional .swiper {
+  margin: 0 !important;
+}
+
+#nacional .swiper {
+  margin: 0 !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  color: #1c1a1a;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 32px !important;
+  line-height: 1.3;
+  font-weight: 700;
+
+}
+
+h3 {
+  font-size: 26px ;
+  line-height: 1.4;
+  font-weight: 700;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+h4 {
+  font-size: 22px !important;
+  line-height: 1.4;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+h5 {
+  font-size: 18px !important;
+  line-height: 1.5;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+@media (min-width: 1020px) {
+  .tiptap a {
+    color: #b10a3e;
+  }
+
+  .tiptap span {
+    font-size: 20px !important;
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 1.6;
+    font-weight: 400;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h1 span {
+    font-size: 38px !important;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h2 span {
+    font-size: 32px !important;
+    line-height: 1.3;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h3 span {
+    font-size: 26px !important;
+    line-height: 1.4;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h4 span {
+    font-size: 22px !important;
+    line-height: 1.4;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h5 span {
+    font-size: 18px !important;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+
+  .tiptap p span {
+    font-size: 18px !important;
+    line-height: 1.4;
+    font-weight: 400;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h2 {
+    font-size: 32px !important;
+    line-height: 1.3;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h3 {
+    font-size: 26px !important;
+    line-height: 1.4;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h4 {
+    font-size: 22px !important;
+    line-height: 1.4;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h5 {
+    font-size: 18px !important;
+    line-height: 1.5;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+
+  .tiptap p {
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+    padding-bottom: 15px;
+  }
+
+  .tiptap ul {
+    list-style: auto !important;
+    margin-left: 25px !important;
+  }
+  .tiptap ol {
+    list-style: auto !important;
+    margin-left: 25px !important;
+  }
+  .tiptap ul li {
+    font-size: 18px !important;
+    font-weight: 400;
+  }
+  .tiptap ol li {
+    font-size: 18px !important;
+    font-weight: 400;
+  }
+}
+@media screen and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+ .grilla {
+    max-width: 90% !important;
+    margin: auto !important;
+
+  }
+
+  article {
+    min-height: 0 !important;
+  }
+}
+
+
+.twitter-tweet {
+  min-width: 300px !important;
+  max-width: none !important;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 9rem;
+}
+
+.twitter-tweet iframe {
+  width: 100% !important;
+}
+
+.instagram-media {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+.tiptap table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  font-family: system-ui, sans-serif;
+}
+
+.tiptap th,
+.tiptap td {
+  padding: .75rem;
+  text-align: left;
+  border: 1px solid #e2e2e2;
+}
+
+.tiptap thead th {
+  background: #f7f7f7;
+  font-weight: 600;
+}
+
+.tiptap tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+@media (max-width: 600px) {
+  .scroll-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .scroll-table table {
+    width: max-content;
+  }
+}
+
+
+@media (max-width: 1020px) {
+  .tiptap a {
+    color: #b10a3e;
+  }
+
+  .twitter-tweet {
+    padding-left: 0 !important;
+  }
+
+  .instagram-media {
+    margin-left: 0 !important;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  h5 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .tiptap p span {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .tiptap h1 span {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  .tiptap h2 span {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .tiptap h3 span {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .tiptap h4 span {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .tiptap h5 span {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .tiptap p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+  }
+
+  .tiptap h1 {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  .tiptap h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .tiptap h3 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .tiptap h4 {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .tiptap h5 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .tiptap ul {
+    list-style: auto !important;
+    margin-left: 20px !important;
+  }
+
+  .tiptap ol {
+    list-style: auto !important;
+    margin-left: 20px !important;
+  }
+}
+
+.bar span {
+  font-size: 14px !important;
+  line-height: 1.5;
+  font-weight: 400;
+}
